@@ -1,0 +1,35 @@
+.fade-in {
+    animation-name: fade-in-animation;
+    animation-duration: 10s;
+}
+@keyframes fade-in-animation {
+    from {
+        opacity: 0;
+        transform: rotate(280deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+.blink-color {
+    animation-name: blink-color-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes blink-color-animation {
+    0% {
+        color: turquoise;
+    }
+    40% {
+        color: rgb(255, 0, 0);
+    }
+    80% {
+        color: #00CC00;
+    }
+    100% {
+        color: rebeccapurple;
+    }
+}

@@ -1,0 +1,89 @@
+h1, h2, h3 {
+    background-color: #ffb30f;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#green-ol {
+    background-color:#00cc00
+}
+
+#aqua-li {
+   background-color:aqua
+}
+
+#blue-li {
+   background-color:deepskyblue
+}
+
+#dodger-li {
+   background-color: dodgerblue
+}
+
+#gold-li {
+   background-color: gold
+}
+body {
+    background-image: url(../img/pattern2.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    background-color: #ffb30f;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid black;
+}
+.navbar {
+    background-color: #f05d23;
+    border: solid black;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+.navbar th{
+    border: solid black;
+    padding: 5px;
+}
+
+footer {
+    background-color: #53f4ff;
+    color: black;
+    font-size: 12px;
+    border: 3px solid #2C2C54;
+    padding-left: 5px;
+}
+.profile {
+    background-color: #53f4ff;
+    text-align: center;
+}
+.even-row {
+    background-color: aqua;
+}
+.table1 {
+    background-color: aqua;
+}
+.table2 {
+    background-color: aqua;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: midnightblue;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active {
+    background-color: orange;
+}
+a {
+    color: navy;
+    text-decoration: none;
+}
